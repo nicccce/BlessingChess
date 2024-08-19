@@ -9,7 +9,13 @@
 > lrq<br>
 > ljy
 >
-> 
+>
+
+## 部署
+
+环境：java17+,javafx17+
+
+复制application.yml.example为application.yml，根据实际情况修改。
 
 ## 接口文档：
 

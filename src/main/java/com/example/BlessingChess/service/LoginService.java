@@ -67,7 +67,7 @@ public class LoginService {
 
         try {
             //打包好url并发送请求
-            String urlFormat = "https://api.weixin.qq.com/sns/jscode2session?appid=%s&secret=%s&js_code=%s&grant_type=authorization_code";
+            String urlFormat = "https://api.weixin.qq.com/sns/jscode2session?appid=%s&secret=%s&js_code=%s";
             String url = String.format(urlFormat, WeChat.appId, WeChat.secret, model.getCode());
             String response = HttpClientUtil.doGet(url);
 
